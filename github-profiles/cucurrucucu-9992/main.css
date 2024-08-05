@@ -1,0 +1,59 @@
+    @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+    body {
+        /*Centrado */
+        margin: 0 auto;
+        max-width: 50em;
+
+        /*Borde*/
+        border: 1px solid tomato;
+
+        /*Cambio de fuente */
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+        /* Tamaño de fuente */
+        font-size: 14px;
+
+        /* Espaciado */
+        line-height: 1.5;
+        padding: 4em 1em;
+
+        /* Color de fuente */
+        color: white;
+
+        /* Color de fondo */
+        background-color: #333;
+    }
+
+    h2 {
+        /* Espaciado */
+        margin-top: 1em;
+        padding-top: 1em;
+
+        /* Balance */
+        background: rebeccapurple;
+        padding: 2px 4px;
+        vertical-align: text-bottom
+    }
+
+    ul {
+        /* Espaciado */
+        margin-top: 1em;
+        padding-top: 1em;
+    }
+
+    li {
+        /* Espaciado */
+        margin-top: 1em;
+        padding-top: 1em;
+    }
+    header {
+        background-color: #263d36;
+        background-image: url("header.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        line-height: 1.2;
+        padding: 10vw 2em;
+        text-align: center;
+      }
